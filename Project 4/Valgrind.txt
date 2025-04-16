@@ -1,0 +1,15 @@
+==1703516== Memcheck, a memory error detector
+==1703516== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==1703516== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==1703516== Command: DLL.exe
+==1703516== Parent PID: 1703382
+==1703516==
+==1703516==
+==1703516== HEAP SUMMARY:
+==1703516==     in use at exit: 0 bytes in 0 blocks
+==1703516==   total heap usage: 461 allocs, 461 frees, 147,640 bytes allocated
+==1703516==
+==1703516== All heap blocks were freed -- no leaks are possible
+==1703516==
+==1703516== For lists of detected and suppressed errors, rerun with: -s
+==1703516== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

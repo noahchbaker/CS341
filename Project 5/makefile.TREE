@@ -1,0 +1,17 @@
+Tree.exe: driver.o redBlackTree.o binarySearchTree.o TreeNode.o
+	g++ driver.o redBlackTree.o binarySearchTree.o TreeNode.o -o Tree.exe
+
+driver.o: driver.cpp
+	g++ -c driver.cpp -o driver.o
+	
+redBlackTree.o: RedBlackTree.cpp
+	g++ -c RedBlackTree.cpp -o redBlackTree.o
+
+BST.o: BinarySearchTree.cpp
+	g++ -c BinarySearchTree.cpp -o BST.o
+
+TreeNode.o: TreeNode.cpp
+	g++ -c TreeNode.cpp -o TreeNode.o
+
+clean:
+	rm *.o Tree.exe
